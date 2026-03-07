@@ -103,11 +103,12 @@
     <!-- Details -->
     <div class="space-y-2">
       {#each titheBreakdown as item}
-        <div
-          class="bg-gray-950 rounded p-3 border-l-4 cursor-pointer hover:bg-gray-900 transition-colors"
+        <button
+          class="bg-gray-950 rounded p-3 border-l-4 cursor-pointer hover:bg-gray-900 transition-colors text-left w-full"
           style="border-left-color: {item.color}"
           on:click={() =>
             (expandedSection = expandedSection === item.id ? null : item.id)}
+          type="button"
         >
           <div class="flex items-center justify-between">
             <div>
@@ -131,7 +132,7 @@
               </ul>
             </div>
           {/if}
-        </div>
+        </button>
       {/each}
     </div>
   </div>

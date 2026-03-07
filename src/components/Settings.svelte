@@ -61,8 +61,8 @@
         <p class="subtitle">Choose your LLM provider & add API key</p>
 
         <div class="form-group">
-          <label>LLM Provider</label>
-          <select bind:value={settings.llmProvider}>
+          <label for="llm-provider">LLM Provider</label>
+          <select id="llm-provider" bind:value={settings.llmProvider}>
             <option value="openai">OpenAI (GPT-4o) - Most capable</option>
             <option value="claude">Claude (Anthropic) - Best reasoning</option>
             <option value="gemini">Gemini (Google) - Cheapest, free tier</option>
@@ -88,8 +88,9 @@
         </div>
 
         <div class="form-group">
-          <label>API Key</label>
+          <label for="api-key">API Key</label>
           <input
+            id="api-key"
             type="password"
             placeholder="Paste your API key here"
             bind:value={settings.apiKey}
@@ -97,8 +98,9 @@
         </div>
 
         <div class="form-group">
-          <label>Qdrant URL (Vector DB)</label>
+          <label for="qdrant-url">Qdrant URL (Vector DB)</label>
           <input
+            id="qdrant-url"
             type="text"
             placeholder="http://localhost:6333"
             bind:value={settings.qdrantUrl}
@@ -109,8 +111,9 @@
         </div>
 
         <div class="form-group">
-          <label>GitHub Repos (comma-separated)</label>
+          <label for="github-repos">GitHub Repos (comma-separated)</label>
           <input
+            id="github-repos"
             type="text"
             placeholder="jbino85/council,jbino85/oso-lang,..."
             bind:value={settings.githubRepos}
@@ -118,8 +121,9 @@
         </div>
 
         <div class="form-group">
-          <label>Phone Key (optional)</label>
+          <label for="phone-key">Phone Key (optional)</label>
           <input
+            id="phone-key"
             type="text"
             placeholder="Your secret key"
             bind:value={settings.phoneKey}
