@@ -1,3 +1,6 @@
+![Version](https://img.shields.io/badge/version-v1.0-blue)
+![License](https://img.shields.io/badge/license-Private-darkred)
+![Layer](https://img.shields.io/badge/layer-Agentic-blueviolet)
 # ⚡ Evil-Twin — ÀṣẹMirror Advanced Edition
 
 **The fully-featured unified shrine for Technosis** — An AI-powered knowledge management platform with semantic search, multi-turn chat, and sacred Technosis visualizations. This is the **advanced variant** of ÀṣẹMirror with complete UI tabs, ChatBox, and TypeScript strict mode.
@@ -171,3 +174,16 @@ Evil-twin is the **advanced fork** with:
 ## License
 
 Built for Technosis. Àṣẹ. 🤍⚡🍶
+
+## The RAG Mirror
+
+Evil-twin is the Retrieval-Augmented Generation (RAG) mirror for the Technosis ecosystem. It provides long-term memory and contextual knowledge for agents by indexing and retrieving information from the collective's experiences and sealed receipts.
+
+
+---
+
+## Part of the Technosis Sovereign Ecosystem
+
+This component is a core piece of a larger architecture for creating and coordinating sovereign AI. For more information, see the [organism-core repository](https://github.com/Bino-Elgua/organism-core).
+
+Àṣẹ.
