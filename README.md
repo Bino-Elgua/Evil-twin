@@ -3,6 +3,8 @@
 ![Layer](https://img.shields.io/badge/layer-Agentic-blueviolet)
 # ⚡ Evil-Twin — ÀṣẹMirror Advanced Edition
 
+Evil-Twin is the RAG mirror of the Technosis ecosystem — a shadow agent that stress-tests, red-teams, and adversarially validates sovereign AI responses.
+
 **The fully-featured unified shrine for Technosis** — An AI-powered knowledge management platform with semantic search, multi-turn chat, and sacred Technosis visualizations. This is the **advanced variant** of ÀṣẹMirror with complete UI tabs, ChatBox, and TypeScript strict mode.
 
 ---
