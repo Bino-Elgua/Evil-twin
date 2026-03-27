@@ -18,3 +18,5 @@ node_modules
 .next
 out
 coverage
+.env.production
+.env.*
